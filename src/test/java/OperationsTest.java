@@ -11,4 +11,9 @@ public class OperationsTest {
     public void testSubtract() throws Exception {
         Assert.assertEquals(0, Operations.subtract(1, 1));
     }
+
+    @Test
+    public void testMultiply() throws Exception {
+        Assert.assertEquals(4, Operations.multiply(2, 2));
+    }
 }

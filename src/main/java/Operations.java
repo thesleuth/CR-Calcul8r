@@ -19,10 +19,7 @@ public class Operations {
     public static int subtract(int x, int y) {
         return x - y;
     }
-
-    public static int foobar(int x, int y) {
-        return y / x;
-    }
+    
 
     /**
      * The multiplication function

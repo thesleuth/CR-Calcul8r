@@ -20,6 +20,10 @@ public class Operations {
         return x - y;
     }
 
+    public static int divide(int x, int y) {
+        return x / y;
+    }
+
     /**
      * The multiplication function
      * @param x The first operand
